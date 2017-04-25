@@ -1,6 +1,6 @@
 # npmdoc-sourced
 
-#### api documentation for  [sourced (v0.1.4)](https://github.com/mateodelnorte/sourced#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-sourced.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sourced) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sourced.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sourced)
+#### basic api documentation for  [sourced (v0.1.4)](https://github.com/mateodelnorte/sourced#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-sourced.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sourced) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sourced.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sourced)
 
 #### Tiny framework for building models with the event sourcing  pattern (events and snapshots).
 
@@ -59,7 +59,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.1.4"
+    "version": "0.1.4",
+    "bin": {}
 }
 ```
 
