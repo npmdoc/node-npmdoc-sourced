@@ -409,22 +409,7 @@
     return fn.apply(this, methodArgs);
   };
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-        * [.digest(method, data)](#Entity+digest)
-        * [.merge(snapshot)](#Entity+merge)
-        * [.mergeProperty(name, value)](#Entity+mergeProperty)
-        * [.replay(events)](#Entity+replay)
-        * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-        * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-    * _static_
-        * [.<span class="apidocCodeKeywordSpan">digestMethod</span>(type, fn)](#Entity.digestMethod)
-        * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-
-&lt;a name="new_Entity_new"&gt;&lt;/a&gt;
-
-### new Entity([snapshot], [events])
-Creates an event-sourced Entity.
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -440,22 +425,7 @@ Creates an event-sourced Entity.
   if ( ! mergeProperties.has(type.name)) mergeProperties.set(type.name, new Map());
   mergeProperties.get(type.name).set(name, fn);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-* [Entity](#Entity)
-* [new Entity([snapshot], [events])](#new_Entity_new)
-* _instance_
-    * [.emit()](#Entity+emit)
-    * [.enqueue()](#Entity+enqueue)
-    * [.digest(method, data)](#Entity+digest)
-    * [.merge(snapshot)](#Entity+merge)
-    * [.<span class="apidocCodeKeywordSpan">mergeProperty</span>(name, value)](#Entity+mergeProperty)
-    * [.replay(events)](#Entity+replay)
-    * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-    * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-* _static_
-    * [.digestMethod(type, fn)](#Entity.digestMethod)
-    * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -500,23 +470,7 @@ Creates an event-sourced Entity.
     });
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-**License**: MIT
-
-* [Entity](#Entity)
-* [new Entity([snapshot], [events])](#new_Entity_new)
-* _instance_
-    * [.emit()](#Entity+emit)
-    * [.enqueue()](#Entity+enqueue)
-    * [.<span class="apidocCodeKeywordSpan">digest</span>(method, data)](#Entity+digest)
-    * [.merge(snapshot)](#Entity+merge)
-    * [.mergeProperty(name, value)](#Entity+mergeProperty)
-    * [.replay(events)](#Entity+replay)
-    * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-    * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-* _static_
-    * [.digestMethod(type, fn)](#Entity.digestMethod)
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -533,24 +487,7 @@ Creates an event-sourced Entity.
     events.EventEmitter.prototype.emit.apply(this, arguments);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-**Kind**: global class
-**Requires**: &lt;code&gt;module:events&lt;/code&gt;, &lt;code&gt;module:debug&lt;/code&gt;, &lt;code&gt;module
-:util&lt;/code&gt;, &lt;code&gt;module:lodash&lt;/code&gt;
-**License**: MIT
-
-* [Entity](#Entity)
-* [new Entity([snapshot], [events])](#new_Entity_new)
-* _instance_
-    * [.<span class="apidocCodeKeywordSpan">emit</span>()](#Entity+emit)
-    * [.enqueue()](#Entity+enqueue)
-    * [.digest(method, data)](#Entity+digest)
-    * [.merge(snapshot)](#Entity+merge)
-    * [.mergeProperty(name, value)](#Entity+mergeProperty)
-    * [.replay(events)](#Entity+replay)
-    * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-    * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -567,24 +504,7 @@ Creates an event-sourced Entity.
     this.eventsToEmit.push(arguments);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-**Requires**: &lt;code&gt;module:events&lt;/code&gt;, &lt;code&gt;module:debug&lt;/code&gt;, &lt;code&gt;module
-:util&lt;/code&gt;, &lt;code&gt;module:lodash&lt;/code&gt;
-**License**: MIT
-
-* [Entity](#Entity)
-* [new Entity([snapshot], [events])](#new_Entity_new)
-* _instance_
-    * [.emit()](#Entity+emit)
-    * [.<span class="apidocCodeKeywordSpan">enqueue</span>()](#Entity+enqueue)
-    * [.digest(method, data)](#Entity+digest)
-    * [.merge(snapshot)](#Entity+merge)
-    * [.mergeProperty(name, value)](#Entity+mergeProperty)
-    * [.replay(events)](#Entity+replay)
-    * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-    * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-* _static_
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -605,23 +525,7 @@ Creates an event-sourced Entity.
   }
   return this;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-* [Entity](#Entity)
-* [new Entity([snapshot], [events])](#new_Entity_new)
-* _instance_
-    * [.emit()](#Entity+emit)
-    * [.enqueue()](#Entity+enqueue)
-    * [.digest(method, data)](#Entity+digest)
-    * [.<span class="apidocCodeKeywordSpan">merge</span>(snapshot)](#Entity+merge)
-    * [.mergeProperty(name, value)](#Entity+mergeProperty)
-    * [.replay(events)](#Entity+replay)
-    * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-    * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-* _static_
-    * [.digestMethod(type, fn)](#Entity.digestMethod)
-    * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -643,22 +547,7 @@ Creates an event-sourced Entity.
   else if (typeof value === 'object' &amp;&amp; typeof this[name] === 'object') _.merge(this[name], value);
   else this[name] = value;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-* [Entity](#Entity)
-* [new Entity([snapshot], [events])](#new_Entity_new)
-* _instance_
-    * [.emit()](#Entity+emit)
-    * [.enqueue()](#Entity+enqueue)
-    * [.digest(method, data)](#Entity+digest)
-    * [.merge(snapshot)](#Entity+merge)
-    * [.<span class="apidocCodeKeywordSpan">mergeProperty</span>(name, value)](#Entity+mergeProperty)
-    * [.replay(events)](#Entity+replay)
-    * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-    * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-* _static_
-    * [.digestMethod(type, fn)](#Entity.digestMethod)
-    * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -692,23 +581,7 @@ Creates an event-sourced Entity.
 
   this.replaying = false;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    * [new Entity([snapshot], [events])](#new_Entity_new)
-    * _instance_
-        * [.emit()](#Entity+emit)
-        * [.enqueue()](#Entity+enqueue)
-        * [.digest(method, data)](#Entity+digest)
-        * [.merge(snapshot)](#Entity+merge)
-        * [.mergeProperty(name, value)](#Entity+mergeProperty)
-        * [.<span class="apidocCodeKeywordSpan">replay</span>(events)](#Entity+replay)
-        * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-        * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-    * _static_
-        * [.digestMethod(type, fn)](#Entity.digestMethod)
-        * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-
-&lt;a name="new_Entity_new"&gt;&lt;/a&gt;
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -725,22 +598,7 @@ Creates an event-sourced Entity.
   var snap = _.cloneDeep(this, true);
   return this.trimSnapshot(snap);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    * _instance_
-        * [.emit()](#Entity+emit)
-        * [.enqueue()](#Entity+enqueue)
-        * [.digest(method, data)](#Entity+digest)
-        * [.merge(snapshot)](#Entity+merge)
-        * [.mergeProperty(name, value)](#Entity+mergeProperty)
-        * [.replay(events)](#Entity+replay)
-        * [.<span class="apidocCodeKeywordSpan">snapshot</span>()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-        * [.trimSnapshot(snapshot)](#Entity+trimSnapshot)
-    * _static_
-        * [.digestMethod(type, fn)](#Entity.digestMethod)
-        * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-
-&lt;a name="new_Entity_new"&gt;&lt;/a&gt;
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -761,23 +619,7 @@ Creates an event-sourced Entity.
   delete snapshot.domain;
   return snapshot;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-        * [.emit()](#Entity+emit)
-        * [.enqueue()](#Entity+enqueue)
-        * [.digest(method, data)](#Entity+digest)
-        * [.merge(snapshot)](#Entity+merge)
-        * [.mergeProperty(name, value)](#Entity+mergeProperty)
-        * [.replay(events)](#Entity+replay)
-        * [.snapshot()](#Entity+snapshot) â‡’ &lt;code&gt;Object&lt;/code&gt;
-        * [.<span class="apidocCodeKeywordSpan">trimSnapshot</span>(snapshot)](#Entity+trimSnapshot)
-    * _static_
-        * [.digestMethod(type, fn)](#Entity.digestMethod)
-        * [.mergeProperty(type, name, fn)](#Entity.mergeProperty)
-
-&lt;a name="new_Entity_new"&gt;&lt;/a&gt;
-
-### new Entity([snapshot], [events])
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
